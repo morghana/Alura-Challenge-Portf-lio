@@ -1,0 +1,226 @@
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-fundo-menu: #ffffff;
+    --cor-do-link: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-do-link);
+}
+
+h2,h3{
+    padding: 2rem; 
+    text-align: center;
+}
+
+p{
+   text-align: center;    
+}
+
+/* ------------------------------ Seção Menu -------------------------------*/
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--cor-de-fundo-menu);
+    
+} 
+
+.cabecalho__logo {
+    max-width: 150px; 
+    text-align: left;
+    padding: 50px;
+    float: left;
+    flex-direction: row;
+}
+
+.cabecalho__titulo {
+    font-size: 30px;
+    text-align: right;
+    flex-direction: row;
+    align-self: flex-start;
+    max-width: 100px; /* Ajuste para telas pequenas */
+}
+
+.navegacao__lista {
+    display: flex; /* Exibe o menu em linha */
+    flex-direction: row; /* Alinha os itens em coluna por padrão */
+    align-items: self-end; /* Centraliza os itens */
+    margin-top: 1rem; /* Espaço acima do menu */
+}
+
+.navegacao__elemento a {
+    font-size: 0.9rem;
+    font-size: 1rem; /* Tamanho do texto do link */
+    padding: 0.5rem 1rem; /* Espaço ao redor do link */
+}
+
+/* ------------------------------ Seção Apresentação ------------------------------*/
+.apresentacao {
+    display: flex; /* Usar flexbox para alinhar a foto e o texto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 2rem; /* Espaço ao redor da seção */
+    text-align: center; /* Centraliza o texto */
+    justify-content: space-around;
+}
+
+.apresentacao__foto {
+    max-width: 150%; /* Tamanho máximo da foto */
+    border-radius: 50%; /* Faz a foto ser redonda */
+    margin-right: 2rem; /* Espaço à direita da foto */
+}
+
+.apresentacao__titulo {
+    font-size: 2.5rem; /* Tamanho do título */
+}
+
+.apresentacao__subtitulo {
+    font-size: 1.5rem; /* Tamanho do subtítulo */
+}
+
+/* ------------------------------ Seção Sobre mim ----------------------------------*/
+.sobre-mim {
+    padding: 2rem; /* Espaço ao redor da seção */
+    text-align: left; /* Centraliza o texto */
+    flex-direction: ;
+}
+
+.sobre-mim__titulo {
+    font-size: 1.5rem; /* Tamanho do título */
+}
+
+    /* ------------------------------ Seção de Habilidades ------------------------------*/
+
+.habilidades__lista {
+    display: flex; 
+    flex-direction: row; 
+    align-items: self-end; 
+    margin-top: 1rem;
+}
+
+    /* ------------------------------ Seção de Hobbies ------------------------------*/
+
+.hobbies__lista {
+    display: flex; 
+    flex-direction: row; 
+    align-items: self-end; 
+    margin-top: 1rem;
+}
+    /* ------------------------------ Seção de Formação ------------------------------*/
+.formacao__lista{
+    display: flex; 
+    flex-direction: row; 
+    align-items: self-end; 
+    margin-top: 1rem;
+}
+
+formacao__foto{
+    width: 300px;
+    height: 300px;
+    border: solid 2px;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    background-size: 150px;
+  /* ------------------------------ Seção de Formação ------------------------------*/
+.projetos{
+    display: flex; 
+    flex-direction: row; 
+    align-items: self-end; 
+    margin-top: 1rem;
+}
+
+/* -------------------------Seção de contato ----------------------------------*/
+.form{
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px - 10px #000000;
+    margin:calc(50vh-220px) auto;
+    padding:20 px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    position: relative;
+}
+.contato-titulo{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180ox;
+    color:#78788c;
+    border-bottom:3px solid #78788c;
+}
+.input{
+    width: 100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition: all .3s;
+    border-bottom: 2px solid #bebed2;
+}
+.input:focus{
+    border-bottom:2px solid #78788c;
+}
+.formulario-paragrafo:before{
+    content: atrr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a;
+    align-items: center;
+}
+
+.button{
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid #78788c
+    background:0;
+    color: #5a5a6e;
+    cursor:pointer;
+    transition:all.3s;
+}
+
+.button:hover{
+    background: #78788c;
+    color:#ffffff;
+}
+
+meu__contato{
+    content: "hi";
+    position:absolute;
+    bottom:-15px;
+    right: -20px;
+    background: #50505a;
+    color: #ffffff;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+}
+
+.span{
+    margin: 0 5px 0 15px;
+}
+/* -------------------------Seção do rodapé ----------------------------------*/
+.footer__rodape{
+    background-color: #ffffff;
+}
